@@ -398,7 +398,6 @@ class MainMenuState extends MusicBeatState
 					LoadingState.loadAndSwitchState(new PlayState(), true);
 				}
 			}
-			#if desktop
 			else if (FlxG.keys.anyJustPressed(debugKeys) #if android || _virtualpad.buttonE.justPressed #end)
 			{
 				//selectedSomethin = true;

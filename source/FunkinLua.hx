@@ -43,9 +43,6 @@ import DialogueBoxPsych;
 import Discord;
 #end
 
-#if android
-import android.Hardware;
-#end
 
 using StringTools;
 
